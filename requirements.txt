@@ -1,0 +1,28 @@
+# EV Şarj İstasyonu Akıllı Park Yönetimi - Bağımlılıklar
+# Python 3.10+ gerekli
+
+# Core ML
+ultralytics>=8.2.0          # YOLOv8
+torch>=2.0.0                # PyTorch
+torchvision>=0.15.0         # Vision utilities
+
+# Computer Vision
+opencv-python>=4.8.0        # OpenCV
+Pillow>=10.0.0              # Image processing
+
+# Dataset
+roboflow>=1.1.0             # Roboflow SDK - dataset indirme
+
+# Demo
+gradio>=4.0.0               # Web arayüz
+
+# Data & Visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0        # .env dosyası okuma
+pyyaml>=6.0                 # YAML config
+tqdm>=4.65.0                # Progress bar
